@@ -37,4 +37,3 @@ void Date::printDate(){
   std::cout << month << " " << day << " " << year << std::endl;
 } // end printDate
 
-void Date::printDate(){}
