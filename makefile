@@ -1,7 +1,7 @@
 students: main.o date.o
 		g++ -g main.o date.o -o students
 
-main.o main.cpp date.h
+main.o: main.cpp date.h
 		g++ -g -c main.cpp
 
 date.o: date.o date.cpp date.h
