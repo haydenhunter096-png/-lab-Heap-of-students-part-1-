@@ -4,7 +4,7 @@ students: main.o date.o
 main.o: main.cpp date.h
 		g++ -g -c main.cpp
 
-date.o: date.o date.cpp date.h
+date.o: date.cpp date.h
 		g++ -g -c date.cpp
 
 run: students
